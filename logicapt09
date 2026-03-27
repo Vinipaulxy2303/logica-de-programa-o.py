@@ -1,0 +1,15 @@
+maior=int(input('Me de um numero:'))
+n2=int(input('Me de um numero:'))
+n3=int(input('Me de um numero:'))
+n4=int(input('Me de mais um numero:'))
+n5=int(input('Me de mais um numero:'))
+if maior >n2 and maior >n3 and maior >n4 and maior>n5:
+    print('esse numero é o maior {}'.format(maior))
+elif n2>maior and n2>n3 and n2>n4 and n2>n5 :
+    print('Esse é o maior numero{}'.format(n2))
+elif n3>maior and n3>n2 and n3>n4 and n3>n5:
+    print('O maior numero é {}'.format(n3))
+elif n4> maior and n4>n2 and n4>n3 and n4>n5:
+    print('O maior numero é {}'.format(n4))
+else:
+    print('O maior numero é {}'.format(n5))
